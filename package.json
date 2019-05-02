@@ -1,0 +1,16 @@
+{
+  "name": "netlify-function-hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	"start:lambda": "netlify-lambda serve src/lambda",
+	"build:lambda": "netlify-lambda build src/lambda"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "netlify-lambda": "^1.4.7"
+  }
+}
